@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# display bad luck numbers from countries
 i=1
 while [ $i -le 20 ]; do
     echo "$i"

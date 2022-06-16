@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#displays hour
 hora=1
 echo "Hour: 0"
 while [ $hora -le 13 ]; do

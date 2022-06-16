@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# gives info about a file
 FILE=school;
 if test -e "$FILE"; then
         echo "$FILE file exists";
