@@ -47,4 +47,4 @@ Best School and then Hi on a new line
 
 * 13 - Write a Bash script that displays the visitor IP along with the HTTP status code from the Apache log file
 
-* 14 - Write a Bash script that groups visitors by IP and HTTP status code, and displays this data
+* 14 - Write a Bash script that groups visitors by IP and HTTP status code, and displays this data 
