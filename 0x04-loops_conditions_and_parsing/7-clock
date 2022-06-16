@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+hora=1
+echo "Hour: 0"
+while [ $hora -le 13 ]; do
+    min=1
+    while [ $min -le 60 ]; do
+		if [ $min == 60 ]; then
+			if [ $hora != 13 ]; then
+				echo "Hour: $hora"
+			fi
+		else
+			echo "$min"
+		fi
+		min=$((min + 1))
+    done
+    hora=$((hora + 1))
+done
