@@ -3,4 +3,4 @@
 # inet addr nos da nuestra IP en linux
 # Doesnt work
 
-ifconfig | grep "inet addr" | cut -d":" -f2 | cut -d " " -f1
+ifconfig | grep "inet" | cut -d ":" -f2 | cut -d " " -f1
